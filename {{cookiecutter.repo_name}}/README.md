@@ -1,9 +1,10 @@
-# cookiecutter-mocha-template
+# {{cookiecutter.github_repository_name}}
+{{cookiecutter.description}}
 
-Template Details
+Project Details
 ====================
 
-Project to generate template of automation tests  with [Mocha](https://mochajs.org/) in JavaScript.
+Project to create automation tests  with [Mocha](https://mochajs.org/) in JavaScript.
 
 ## Requirements
 

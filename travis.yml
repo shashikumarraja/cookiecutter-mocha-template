@@ -1,0 +1,19 @@
+language: python
+python:
+  - "3.6"
+  - "3.5"
+  - "3.4"
+  - "3.3"
+  - "2.7"
+  - "2.6"
+before_script:
+  - npm install -g npm
+install:
+  - pip install cookiecutter
+  - cookiecutter . --no-input
+  - cd mocha-template
+  - npm install
+script:
+  - npm test
+matrix:
+  fast_finish: true
