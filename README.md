@@ -5,7 +5,17 @@
 Template Details
 ====================
 
-Project to generate template of automation tests  with [Mocha](https://mochajs.org/) in JavaScript.
+A cookiecutter for setting up project to start testing with [Mocha](https://mochajs.org/) in JavaScript.
+## Quick Start
+Install [cookiecutter](https://github.com/audreyr/cookiecutter):
+```bash
+pip install cookiecutter
+```
+
+Scaffold your project:
+```
+cookiecutter https://github.com/shashikumarraja/cookiecutter-mocha-template
+```
 
 ## Requirements
 
@@ -14,7 +24,7 @@ Project to generate template of automation tests  with [Mocha](https://mochajs.o
 $ brew install node
 ```
 
-## Quick start
+## Installation
 Install dependencies
 ```sh
 $ npm install
