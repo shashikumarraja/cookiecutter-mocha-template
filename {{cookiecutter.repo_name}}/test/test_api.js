@@ -2,7 +2,7 @@
 const { callGetBookingApi, responseSchema } = require('../src/api.js');
 describe('GET Booking Suite', function () {
     var res;
-    before(function () {
+    before(async function () {
         let id = 1;
         res = await callGetBookingApi(id);
         logger.log(res.body);
@@ -13,5 +13,4 @@ describe('GET Booking Suite', function () {
     it('should validate response schema', function () {
         expect(res.body).to.be.jsonSchema(responseSchema);
     });
-
 });

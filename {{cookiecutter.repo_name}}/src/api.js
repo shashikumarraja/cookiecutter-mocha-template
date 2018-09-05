@@ -18,7 +18,7 @@
 
 const bookingApi = 'booking/';
 exports.callGetBookingApi = async (id) => {
-    return baseUrl.get(bookingApi + '/' + id)
+    return baseUrl.get(bookingApi + id)
         .set('Accept', 'application/json')
         .set('Content-Type', 'application/json')
 };
