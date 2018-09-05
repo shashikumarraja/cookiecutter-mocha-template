@@ -34,8 +34,7 @@ exports.responseSchema = {
         "lastname",
         "totalprice",
         "depositpaid",
-        "bookingdates",
-        "additionalneeds"
+        "bookingdates"
     ],
     "properties": {
         "firstname": {
