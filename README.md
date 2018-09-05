@@ -134,6 +134,9 @@ npm run report
 
 Use of more than one reporter has been made possible by using [mocha-multi](https://github.com/glenjamin/mocha-multi)
 
+# Code-Coverage
+[Istanbul.js nyc](https://istanbul.js.org/docs/tutorials/mocha/) is used as code coverage tool.
+
 # Api Documentation
 The project uses [apiDoc](http://apidocjs.com/) to document the Apis. To generate and see the api documentation use-
 ```sh
